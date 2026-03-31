@@ -10,6 +10,7 @@ import Navbar from './Components/Navbar/Navbar'
 import PremiumTools from './Components/PremiumTools/PremiumTools'
 import Products from './Components/Products/Products'
 import { ToastContainer } from 'react-toastify'
+import StartedSection from './Components/StartedSection/StartedSection'
 
 const fetchProducts = async () => {
   const res = await fetch("data.json")
@@ -19,7 +20,7 @@ const fetchProducts = async () => {
 
 
 function App() {
-const productPromise = fetchProducts()
+  const productPromise = fetchProducts()
 
   return (
     <>
@@ -32,7 +33,7 @@ const productPromise = fetchProducts()
       <Suspense>
         <Products productPromise={productPromise}></Products>
       </Suspense>
-
+      <StartedSection></StartedSection>
 
       <ToastContainer></ToastContainer>
     </>
