@@ -1,0 +1,97 @@
+[
+  {
+    "id": "plan-free-01",
+    "name": "Standard Entry",
+    "description": "The perfect starting point for students and entry-level job seekers.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free Forever",
+    "tagType": "new",
+    "features": [
+      "3 Basic templates",
+      "Standard PDF export",
+      "Community forum access"
+    ],
+    "icon": "https://i.ibb.co.com/PzGxLz0N/design-tool.png"
+  },
+  {
+    "id": "plan-pro-monthly",
+    "name": "Professional Monthly",
+    "description": "A comprehensive toolkit for active seekers targeting top-tier companies.",
+    "price": 15.00,
+    "period": "monthly",
+    "tag": "Most Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ Premium templates",
+      "ATS optimization",
+      "Export to PDF & Word",
+      "AI bullet point suggestions"
+    ],
+    "icon": "https://i.ibb.co.com/whYL35xG/operation.png"
+  },
+  {
+    "id": "plan-pro-annual",
+    "name": "Professional Annual",
+    "description": "Full access for a year. Best for long-term career growth and networking.",
+    "price": 120.00,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best-seller",
+    "features": [
+      "Everything in Professional",
+      "Unlimited template access",
+      "LinkedIn profile audit",
+      "2 Months free"
+    ],
+    "icon": "https://i.ibb.co.com/ZzWMd1z7/portfolio.png"
+  },
+  {
+    "id": "plan-exec-04",
+    "name": "Executive Elite",
+    "description": "High-impact branding for senior-level management and leadership roles.",
+    "price": 49.00,
+    "period": "monthly",
+    "tag": "Premium",
+    "tagType": "popular",
+    "features": [
+      "100+ Executive templates",
+      "Personal career coaching",
+      "Custom cover letter builder",
+      "Priority 24/7 support"
+    ],
+    "icon": "https://i.ibb.co.com/xt5PcgKm/shopping-cart.png"
+  },
+  {
+    "id": "plan-student-05",
+    "name": "Academic Scholar",
+    "description": "Specialized templates for internships and academic research positions.",
+    "price": 9.00,
+    "period": "monthly",
+    "tag": "Student Deal",
+    "tagType": "new",
+    "features": [
+      "Academic CV formats",
+      "Internship guide",
+      "Reference letter builder",
+      "Portfolio hosting"
+    ],
+    "icon": "https://i.ibb.co.com/5xBYGB0J/social-media.png"
+  },
+  {
+    "id": "plan-biz-06",
+    "name": "Business Team",
+    "description": "A collaborative plan for career centers and recruitment agencies.",
+    "price": 499.00,
+    "period": "yearly",
+    "tag": "Enterprise",
+    "tagType": "best-seller",
+    "features": [
+      "Up to 20 user seats",
+      "Team collaboration tools",
+      "White-label exports",
+      "Dedicated account manager"
+    ],
+    "icon": "https://i.ibb.co.com/N2BT6yW3/writing-2327400-1.png"
+  }
+]
