@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Li from './Li';
 
-const Card = ({ product, selectedProduct, setSelectedProduct }) => {
+const Card = ({ product, selectedProduct, setSelectedProduct, totalPrice, setTotalPrice }) => {
     // console.log(product);
     const { name, price, tagType, period, icon, description } = product;
 
@@ -9,6 +9,8 @@ const Card = ({ product, selectedProduct, setSelectedProduct }) => {
     const features = product.features
 
     const handleSelectedProduct = () => {
+
+        setTotalPrice(totalPrice + price)
         setIsSelected(true);
         setSelectedProduct([...selectedProduct, product])
     }
