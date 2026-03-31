@@ -9,6 +9,7 @@ import Featured from './Components/Featured/Featured'
 import Navbar from './Components/Navbar/Navbar'
 import PremiumTools from './Components/PremiumTools/PremiumTools'
 import Products from './Components/Products/Products'
+import { ToastContainer } from 'react-toastify'
 
 const fetchProducts = async () => {
   const res = await fetch("data.json")
@@ -31,6 +32,9 @@ const productPromise = fetchProducts()
       <Suspense>
         <Products productPromise={productPromise}></Products>
       </Suspense>
+
+
+      <ToastContainer></ToastContainer>
     </>
   )
 }
