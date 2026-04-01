@@ -7,8 +7,8 @@ const CartCard = ({ product, handleDeleteSelectedProduct }) => {
         <div>
             
             <div className='flex justify-between items-center bg-base-200 shadow-sm p-3 mt-5'>
-                <div className='flex items-center gap-4'>
-                    <div className='h-[75px] w-auto'>
+                <div className='flex justify-center items-center gap-4'>
+                    <div className=''>
                         <img src={product.icon} alt="" />
                     </div>
                     <div>

@@ -6,7 +6,7 @@ const PricingCardSection = () => {
 
         <div className='text-center p-8 space-y-4'>
             <h2 className='text-5xl font-bold'>Simple, Transparent Pricing</h2>
-            <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+            <p className='text-[#d7e0e9]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 <div className="card-body flex flex-col relative bg-base-200 shadow-md rounded-2xl">

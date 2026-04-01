@@ -17,7 +17,7 @@ const Card = ({ product, selectedProduct, setSelectedProduct, totalPrice, setTot
         toast.success(`${name} added to cart`)
     }
     return (
-        <div className="card w-96 bg-base-100 shadow-sm flex flex-col">
+        <div className="card bg-base-100 shadow-sm flex flex-col">
 
             <div className="card-body flex flex-col">
                 <div className='flex justify-between'>

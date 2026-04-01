@@ -44,15 +44,15 @@ const Footer = () => {
 
 
             </footer>
-            <hr className='border border-[#627382] opacity-75 my-10' />
+            <hr className='border border-[#627382] opacity-75 mt-10' />
               <div className="divider text-[#627382]"></div>
-            <div className='flex justify-between items-center mt-5'>
+            <div className='flex justify-between flex-col md:flex-row items-center mt-5'>
                 <p className='text-[#627382]'>© 2026 Digitools. All rights reserved.</p>
-                <ul className='flex gap-5 text-[#627382]'>
-                    <li>Privacy Policy</li>
+                <ul className='gap-5 text-[#627382] flex  '>
+                    <li className=''>Privacy Policy</li>
                     <li>Terms of Service</li>
                     <li>Cookies</li>
-                    <li></li>
+                   
                 </ul>
             </div>
         </div>
