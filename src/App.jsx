@@ -11,6 +11,7 @@ import PremiumTools from './Components/PremiumTools/PremiumTools'
 import Products from './Components/Products/Products'
 import { ToastContainer } from 'react-toastify'
 import StartedSection from './Components/StartedSection/StartedSection'
+import PricingCardSection from './Components/PricingCardSection/PricingCardSection'
 
 const fetchProducts = async () => {
   const res = await fetch("data.json")
@@ -34,6 +35,7 @@ function App() {
         <Products productPromise={productPromise}></Products>
       </Suspense>
       <StartedSection></StartedSection>
+      <PricingCardSection></PricingCardSection>
 
       <ToastContainer></ToastContainer>
     </>

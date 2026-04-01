@@ -19,7 +19,7 @@ const Card = ({ product, selectedProduct, setSelectedProduct, totalPrice, setTot
     return (
         <div className="card w-96 bg-base-100 shadow-sm flex flex-col">
 
-            <div className="card-body flex-1">
+            <div className="card-body flex flex-col">
                 <div className='flex justify-between'>
                     <img src={icon} alt="" />
                     <span className="badge badge-xs badge-warning flex justify-end">{tagType}</span>
@@ -29,7 +29,7 @@ const Card = ({ product, selectedProduct, setSelectedProduct, totalPrice, setTot
                     <p className='text-[#627382]'>{description}</p>
                     <h2>${price}/{period}</h2>
                 </div>
-                <ul className="mt-6 flex flex-col gap-2 text-xs">
+                <ul className="mt-4 flex flex-col gap-2 text-xs grow">
                     {
                         features.map((feature, ind) => <Li key={ind} feature={feature}></Li>)
                     }
