@@ -9,10 +9,10 @@
 Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
 
 ## 🛠 Tech Stack
-![React](https://shields.io)
-![Nodejs](https://shields.io)
-![Tailwind](https://shields.io)
-![React Tostify](https://shields.io)
+![React](https://react.dev/)
+![Nodejs](https://nodejs.org/en)
+![Tailwind](https://tailwindcss.com/)
+![React Tostify](https://www.npmjs.com/package/react-toastify)
 
 
 ## ✨ Key Features
