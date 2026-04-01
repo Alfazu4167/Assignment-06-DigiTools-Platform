@@ -12,6 +12,8 @@ import Products from './Components/Products/Products'
 import { ToastContainer } from 'react-toastify'
 import StartedSection from './Components/StartedSection/StartedSection'
 import PricingCardSection from './Components/PricingCardSection/PricingCardSection'
+import Workflow from './Components/WorkflowSection/Workflow'
+import Footer from './Components/Footer/Footer'
 
 const fetchProducts = async () => {
   const res = await fetch("data.json")
@@ -36,6 +38,8 @@ function App() {
       </Suspense>
       <StartedSection></StartedSection>
       <PricingCardSection></PricingCardSection>
+      <Workflow></Workflow>
+      <Footer></Footer>
 
       <ToastContainer></ToastContainer>
     </>

@@ -22,7 +22,7 @@ const Cart = ({ selectedProduct, setSelectedProduct, totalPrice, setTotalPrice }
             <h2 className='text-3xl font-bold'>Your Cart</h2>
             {
                 selectedProduct.length === 0 ? <div className=' h-[40vh] mx-auto flex flex-col justify-center items-center gap-4 bg-base-200 mt-6'>
-                    <h2 className='text-xl font-bold'>No Products Added In Cart</h2>
+                    <h2 className='text-xl font-bold'>Your Cart is empty</h2>
                     <p className='text-[#627382]'>Please go to Product section to add Products</p>
                 </div> :
                     selectedProduct.map((Product, ind) => <CartCard handleDeleteSelectedProduct={handleDeleteSelectedProduct} key={ind} product={Product} setTotalPrice={setTotalPrice}></CartCard>)
