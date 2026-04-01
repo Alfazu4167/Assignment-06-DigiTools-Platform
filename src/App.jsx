@@ -1,7 +1,7 @@
 
 
 
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './Components/Banner/Banner'
 import Featured from './Components/Featured/Featured'
@@ -24,17 +24,18 @@ const fetchProducts = async () => {
 
 function App() {
   const productPromise = fetchProducts()
-
+  const [selectedProduct, setSelectedProduct] = useState([]);
   return (
     <>
       <header className='max-w-11/12 mx-auto'>
-        <Navbar></Navbar>
+        <Navbar selectedProduct={selectedProduct}></Navbar>
         <Banner></Banner>
       </header>
       <Featured></Featured>
       <PremiumTools></PremiumTools>
-      <Suspense>
-        <Products productPromise={productPromise}></Products>
+      <Suspense fallback={<span className="loading loading-spinner loading-xl flex justify-center items-center"></span>
+}>
+        <Products productPromise={productPromise} selectedProduct={selectedProduct} setSelectedProduct={setSelectedProduct}></Products>
       </Suspense>
       <StartedSection></StartedSection>
       <PricingCardSection></PricingCardSection>

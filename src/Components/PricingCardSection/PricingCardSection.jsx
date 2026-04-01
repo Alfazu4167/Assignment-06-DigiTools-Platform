@@ -42,7 +42,7 @@ const PricingCardSection = () => {
                 </div>
                 <div className="card-body flex-1 relative bg-base-200 shadow-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-2xl">
                     <div className='flex justify-between'>
-                        <img src='' alt="" />
+                       
                         <span className="badge badge-md bg-[#FEF3C6] text-[#BB4D00] absolute right-40 -top-1.5 ">Most Popular</span>
                     </div>
                     <div className='space-y-4'>

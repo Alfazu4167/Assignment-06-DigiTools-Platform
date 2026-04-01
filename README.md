@@ -9,11 +9,11 @@
 Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
 
 ## 🛠 Tech Stack
-React
-React Icon
-React Tostify
-Tailwind
-JSON
+![React](https://shields.io)
+![Nodejs](https://shields.io)
+![Tailwind](https://shields.io)
+![React Tostify](https://shields.io)
+
 
 ## ✨ Key Features
 *   **Feature One:** The project will smoothly run in every device.

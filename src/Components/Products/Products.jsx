@@ -3,13 +3,13 @@ import Card from '../Ui/Card';
 import Product from './Product/Product';
 import Cart from './Cart/Cart';
 
-const Products = ({ productPromise }) => {
+const Products = ({ productPromise, selectedProduct, setSelectedProduct }) => {
     const [btnType, setBtnType] = useState('product')
     const products = use(productPromise)
 
-    const [selectedProduct, setSelectedProduct] = useState([]);
+   
     const [totalPrice, setTotalPrice] = useState(0);
-    console.log(totalPrice);
+   
     return (
         <>
             <div className='flex justify-center items-center gap-2'>
