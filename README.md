@@ -9,11 +9,11 @@
 Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
 
 ## 🛠 Tech Stack
-![React](https://react.dev/)
-![Nodejs](https://nodejs.org/en)
-![Tailwind](https://tailwindcss.com/)
-![React Tostify](https://www.npmjs.com/package/react-toastify)
 
+*  React
+*  Tailwind
+*  Node js
+*  React Tostify
 
 ## ✨ Key Features
 *   **Feature One:** The project will smoothly run in every device.
